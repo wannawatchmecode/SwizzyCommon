@@ -1,5 +1,5 @@
 {
-  "name": "swizzy-common",
+  "name": "@swizzyweb/swizzy-common",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -7,6 +7,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf ./node_modules ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "WannaWatchMeCode",
